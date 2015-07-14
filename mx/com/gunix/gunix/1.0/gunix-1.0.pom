@@ -10,9 +10,6 @@
 		<module>framework-commons</module>
 		<module>framework-vista</module>
 		<module>framework-backEnd</module>
-		<!-- module>core</module>
-		<module>vista</module>
-		<module>backEnd</module-->
 	</modules>
 
 	<properties>
@@ -50,11 +47,6 @@
 			<dependency>
 				<groupId>mx.com.gunix</groupId>
 				<artifactId>framework-commons</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>mx.com.gunix</groupId>
-				<artifactId>core</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
